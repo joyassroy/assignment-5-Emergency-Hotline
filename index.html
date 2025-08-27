@@ -30,8 +30,12 @@
   </head>
   <body class="hind-madurai-font">
     <!-- px-[60px] py-[25px] -->
-    <section class="flex justify-between items-center px-[60px] py-[25px]">
-      <div class="bg-[#FFFFFF] flex justify-center items-center">
+    <section
+      class="flex justify-between max-sm:flex-col items-center px-[60px] py-[25px]"
+    >
+      <div
+        class="bg-[#FFFFFF] flex justify-center items-center max-sm:mb-[10px]"
+      >
         <img
           class="h-[50px] w-[50px] mr-[10px]"
           src="./assets/logo.png"
@@ -47,7 +51,11 @@
           class="flex items-center bg-[#41ff6b1a] py-[14px] px-[35px] rounded-[50px] mr-[20px]"
         >
           <h1 id="heart-show" class="mr-[10px]">0</h1>
-          <img  class="w-[30px] h-[30px]" src="./assets/heart.png" alt="" />
+          <img
+            class="w-[30px] max-sm:w-[20px] max-sm:h-[20px] h-[30px]"
+            src="./assets/heart.png"
+            alt=""
+          />
         </div>
         <div
           class="mr-[20px] flex items-center bg-[#41ff6b1a] py-[14px] px-[35px] rounded-[50px]"
@@ -64,7 +72,7 @@
       </div>
     </section>
     <section
-      class="bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] text-white flex flex-col items-center py-[21px]"
+      class="bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] text-white flex flex-col max-sm:text-center items-center py-[21px]"
     >
       <img class="w-[92px] h-[92px]" src="./assets/logo-dark.png" alt="" />
       <h1 class="font-bold text-[40px]">Emergency Service Directory</h1>
@@ -74,9 +82,9 @@
       </p>
     </section>
     <section
-      class="bg-[#F5FFF6] pl-[58px] pr-[62px] pb-[86px] pt-[48px]  flex items-center justify-center"
+      class="bg-[#F5FFF6] pl-[58px] pr-[62px] pb-[86px] pt-[48px] flex items-center justify-center"
     >
-      <div class="grid grid-cols-4 gap-[20px]">
+      <div class="grid grid-cols-4 max-sm:grid-cols-1 gap-[20px]">
         <div
           class="bg-white rounded-[12px] p-[32px] shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]"
         >
@@ -90,8 +98,11 @@
                 alt=""
               />
             </div>
-            <button >
-              <i id="heart1" class="fa-regular fa-heart text-[24px] cursor-pointer"></i>
+            <button>
+              <i
+                id="heart1"
+                class="fa-regular fa-heart text-[24px] cursor-pointer"
+              ></i>
             </button>
           </div>
           <h1 class="text-[24px] font-bold mt-[16px]">
@@ -107,15 +118,17 @@
             All
           </button>
           <div class="flex justify-between items-center mt-[24px]">
-            <div data-copy-text='999'
-              class="copy-btn  text-center bg-white border border-[#D4D6D5] rounded-lg py-[11px] px-[62px] hover:text-white cursor-pointer hover:bg-black"
+            <div
+              data-copy-text="999"
+              class="copy-btn text-center bg-white border border-[#D4D6D5] rounded-lg py-[11px] px-[62px] max-sm:px-[30px] hover:text-white cursor-pointer hover:bg-black"
             >
-              <p><i class="fa-regular fa-copy"></i> Copy</p>
+              <p class="max-sm:text-[11px]"><i class="fa-regular fa-copy"></i> Copy</p>
             </div>
-            <button id="call-btn1"
-              class="py-[11px] px-[62px] bg-[#00A63E] rounded-[8px] text-white hover:bg-gray-400 cursor-pointer"
+            <button
+              id="call-btn1"
+              class="max-sm:text-[11px] py-[11px] px-[62px] max-sm:px-[30px] max-sm:ml-[10px] bg-[#00A63E] rounded-[8px] text-white hover:bg-gray-400 cursor-pointer"
             >
-              <i class="fa-solid fa-phone mr-[2px]"></i>Call
+              <i class="fa-solid fa-phone mr-[2px] "></i>Call
             </button>
           </div>
         </div>
@@ -128,8 +141,11 @@
             >
               <img class="w-[32px] h-[32px]" src="./assets/police.png" alt="" />
             </div>
-            <button >
-              <i id="heart2" class="fa-regular fa-heart text-[24px] cursor-pointer"></i>
+            <button>
+              <i
+                id="heart2"
+                class="fa-regular fa-heart text-[24px] cursor-pointer"
+              ></i>
             </button>
           </div>
           <h1 class="text-[24px] font-bold mt-[16px]">
@@ -143,13 +159,15 @@
             Police
           </button>
           <div class="flex justify-between items-center mt-[24px]">
-            <div data-copy-text='999'
-              class="copy-btn text-center bg-white border border-[#D4D6D5] rounded-lg py-[11px] px-[62px] hover:bg-black hover:text-white cursor-pointer"
+            <div
+              data-copy-text="999"
+              class="copy-btn text-center bg-white border border-[#D4D6D5] rounded-lg py-[11px] px-[62px] max-sm:px-[25px]  hover:bg-black hover:text-white cursor-pointer"
             >
-              <p><i class="fa-regular fa-copy"></i> Copy</p>
+              <p class="max-sm:text-[11px]"><i class="fa-regular fa-copy "></i> Copy</p>
             </div>
-            <button id="call-btn2"
-              class="ml-[8px] py-[11px] px-[62px] bg-[#00A63E] rounded-[8px] text-white hover:bg-gray-400 cursor-pointer"
+            <button
+              id="call-btn2"
+              class="ml-[8px] max-sm:text-[11px] max-sm:px-[25px] max-sm:ml-[10px] py-[11px] px-[62px] bg-[#00A63E] rounded-[8px] text-white hover:bg-gray-400 cursor-pointer"
             >
               <i class="fa-solid fa-phone mr-[2px] cursor-pointer"></i>Call
             </button>
@@ -169,7 +187,10 @@
               />
             </div>
             <button>
-              <i id="heart3"  class=" fa-regular fa-heart text-[24px] cursor-pointer"></i>
+              <i
+                id="heart3"
+                class="fa-regular fa-heart text-[24px] cursor-pointer"
+              ></i>
             </button>
           </div>
           <h1 class="text-[24px] font-bold mt-[16px]">Fire Service Number</h1>
@@ -181,32 +202,37 @@
             Fire
           </button>
           <div class="flex justify-between items-center mt-[24px]">
-            <div data-copy-text='999'
-              class="copy-btn text-center bg-white border border-[#D4D6D5] rounded-lg py-[11px] px-[62px] hover:text-white cursor-pointer hover:bg-black"
+            <div
+              data-copy-text="999"
+              class="copy-btn text-center max-sm:px-[30px]  bg-white border border-[#D4D6D5] rounded-lg py-[11px] px-[62px] hover:text-white cursor-pointer hover:bg-black"
             >
-              <p><i class="fa-regular fa-copy"></i> Copy</p>
+              <p class="max-sm:text-[11px]"><i class="fa-regular fa-copy"></i> Copy</p>
             </div>
-            <button id="call-btn3"
-              class="py-[11px] px-[62px] bg-[#00A63E] rounded-[8px] text-white hover:bg-gray-400 cursor-pointer"
+            <button
+              id="call-btn3"
+              class="max-sm:text-[11px] py-[11px] px-[62px] max-sm:px-[30px] max-sm:ml-[10px] bg-[#00A63E] rounded-[8px] text-white hover:bg-gray-400 cursor-pointer"
             >
               <i class="fa-solid fa-phone mr-[2px]"></i>Call
             </button>
           </div>
         </div>
-        <div class="bg-white w-[400px] p-[24px] rounded-[12px] ml-[50px]  row-span-3 shadow-md">
-        <div class="flex  items-center justify-between">
-          <div class="flex gap-[8px] items-center">
-            <i class="fa-solid fa-clock"></i>
-            <h1 class="text-[20px] font-medium mr-[102px]">Call History</h1>
+        <div
+          class="bg-white max-sm:hidden w-[400px] p-[24px] rounded-[12px] ml-[50px] row-span-3 shadow-md"
+        >
+          <div class="flex items-center justify-between">
+            <div class="flex gap-[8px] items-center">
+              <i class="fa-solid fa-clock"></i>
+              <h1 class="text-[20px] font-medium mr-[102px]">Call History</h1>
+            </div>
+            <button
+              id="clear-btn"
+              class="text-white bg-[#00A63E] px-[36px] py-[14px] rounded-[50px] cursor-pointer hover:bg-gray-400"
+            >
+              Clear
+            </button>
           </div>
-          <button id="clear-btn"
-            class="text-white bg-[#00A63E] px-[36px] py-[14px] rounded-[50px] cursor-pointer hover:bg-gray-400"
-          >
-            Clear
-          </button>
-        </div>
-        <div id="callHistory-parent">
-        <!-- <div 
+          <div id="callHistory-parent">
+            <!-- <div 
           class="bg-zinc-50 rounded-lg mt-[8px] mb-[8px] flex items-center justify-between p-[16px]"
         >
           <div>
@@ -217,8 +243,8 @@
           </div>
           <h1 class="hind-madurai-font text-[18px] font-normal">11:36:58 AM</h1>
         </div> -->
+          </div>
         </div>
-      </div>
         <div
           class="bg-white rounded-[12px] p-[32px] shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]"
         >
@@ -232,8 +258,11 @@
                 alt=""
               />
             </div>
-            <button >
-              <i id="heart4"  class=" fa-regular fa-heart text-[24px] cursor-pointer"></i>
+            <button>
+              <i
+                id="heart4"
+                class="fa-regular fa-heart text-[24px] cursor-pointer"
+              ></i>
             </button>
           </div>
           <h1 class="text-[24px] font-bold mt-[16px]">Ambulance Service</h1>
@@ -245,13 +274,15 @@
             Health
           </button>
           <div class="flex justify-between items-center mt-[24px]">
-            <div data-copy-text='1994-999999'
-              class="copy-btn text-center bg-white border border-[#D4D6D5] rounded-lg py-[11px] px-[62px] hover:text-white cursor-pointer hover:bg-black"
+            <div
+              data-copy-text="1994-999999"
+              class="copy-btn text-center max-sm:px-[30px] bg-white border border-[#D4D6D5] rounded-lg py-[11px] px-[62px] hover:text-white cursor-pointer hover:bg-black"
             >
-              <p><i class="fa-regular fa-copy"></i> Copy</p>
+              <p class="max-sm:text-[11px]"><i class="fa-regular fa-copy"></i> Copy</p>
             </div>
-            <button id="call-btn4"
-              class="py-[11px] px-[62px] bg-[#00A63E] rounded-[8px] text-white hover:bg-gray-400 cursor-pointer"
+            <button
+              id="call-btn4"
+              class="py-[11px] max-sm:text-[11px] px-[62px] max-sm:px-[30px] max-sm:ml-[10px] bg-[#00A63E] rounded-[8px] text-white hover:bg-gray-400 cursor-pointer"
             >
               <i class="fa-solid fa-phone mr-[2px]"></i>Call
             </button>
@@ -270,8 +301,11 @@
                 alt=""
               />
             </div>
-            <button >
-              <i id="heart5" class=" fa-regular fa-heart text-[24px] cursor-pointer"></i>
+            <button>
+              <i
+                id="heart5"
+                class="fa-regular fa-heart text-[24px] cursor-pointer"
+              ></i>
             </button>
           </div>
           <h1 class="text-[24px] font-bold mt-[16px]">
@@ -287,13 +321,15 @@
             Help
           </button>
           <div class="flex justify-between items-center mt-[24px]">
-            <div data-copy-text='109'
-              class="copy-btn text-center bg-white border border-[#D4D6D5] rounded-lg py-[11px] px-[62px] hover:text-white cursor-pointer hover:bg-black"
+            <div
+              data-copy-text="109"
+              class="copy-btn text-center max-sm:px-[30px] bg-white border border-[#D4D6D5] rounded-lg py-[11px] px-[62px] hover:text-white cursor-pointer hover:bg-black"
             >
-              <p><i class="fa-regular fa-copy"></i> Copy</p>
+              <p class="max-sm:text-[11px]"><i class="fa-regular fa-copy"></i> Copy</p>
             </div>
-            <button id="call-btn5"
-              class="py-[11px] px-[62px] bg-[#00A63E] rounded-[8px] text-white hover:bg-gray-400 cursor-pointer"
+            <button
+              id="call-btn5"
+              class="py-[11px] max-sm:text-[11px] px-[62px] max-sm:px-[30px] max-sm:ml-[10px] bg-[#00A63E] rounded-[8px] text-white hover:bg-gray-400 cursor-pointer"
             >
               <i class="fa-solid fa-phone mr-[2px]"></i>Call
             </button>
@@ -312,8 +348,11 @@
                 alt=""
               />
             </div>
-            <button >
-              <i id="heart6" class="fa-regular fa-heart text-[24px] cursor-pointer"></i>
+            <button>
+              <i
+                id="heart6"
+                class="fa-regular fa-heart text-[24px] cursor-pointer"
+              ></i>
             </button>
           </div>
           <h1 class="text-[24px] font-bold mt-[16px]">
@@ -327,13 +366,15 @@
             Govt.
           </button>
           <div class="flex justify-between items-center mt-[24px]">
-            <div data-copy-text='106'
-              class="copy-btn text-center bg-white border border-[#D4D6D5] rounded-lg py-[11px] px-[62px] hover:text-white cursor-pointer hover:bg-black"
+            <div
+              data-copy-text="106"
+              class="copy-btn text-center max-sm:px-[30px]  bg-white border border-[#D4D6D5] rounded-lg py-[11px] px-[62px] hover:text-white cursor-pointer hover:bg-black"
             >
-              <p><i class="fa-regular fa-copy"></i> Copy</p>
+              <p class="max-sm:text-[11px]"><i class="fa-regular fa-copy"></i> Copy</p>
             </div>
-            <button id="call-btn6"
-              class="py-[11px] px-[62px] bg-[#00A63E] rounded-[8px] text-white hover:bg-gray-400 cursor-pointer"
+            <button
+              id="call-btn6"
+              class="py-[11px] max-sm:text-[11px] px-[62px] max-sm:px-[30px] max-sm:ml-[10px] bg-[#00A63E] rounded-[8px] text-white hover:bg-gray-400 cursor-pointer"
             >
               <i class="fa-solid fa-phone mr-[2px]"></i>Call
             </button>
@@ -352,8 +393,11 @@
                 alt=""
               />
             </div>
-            <button >
-              <i id="heart7" class="fa-regular fa-heart text-[24px] cursor-pointer"></i>
+            <button>
+              <i
+                id="heart7"
+                class="fa-regular fa-heart text-[24px] cursor-pointer"
+              ></i>
             </button>
           </div>
           <h1 class="text-[24px] font-bold mt-[16px]">Electricity Helpline</h1>
@@ -367,13 +411,15 @@
             Electricity
           </button>
           <div class="flex justify-between items-center mt-[24px]">
-            <div data-copy-text='16216'
-              class="copy-btn text-center bg-white border border-[#D4D6D5] rounded-lg py-[11px] px-[62px] hover:text-white cursor-pointer hover:bg-black"
+            <div
+              data-copy-text="16216"
+              class="copy-btn text-center max-sm:px-[30px]  bg-white border border-[#D4D6D5] rounded-lg py-[11px] px-[62px] hover:text-white cursor-pointer hover:bg-black"
             >
-              <p><i class="fa-regular fa-copy"></i> Copy</p>
+              <p class="max-sm:text-[11px]"><i class="fa-regular fa-copy"></i> Copy</p>
             </div>
-            <button id="call-btn7"
-              class="py-[11px] px-[62px] bg-[#00A63E] rounded-[8px] text-white hover:bg-gray-400 cursor-pointer"
+            <button
+              id="call-btn7"
+              class="py-[11px] max-sm:text-[11px] px-[62px] max-sm:px-[30px] max-sm:ml-[10px] bg-[#00A63E] rounded-[8px] text-white hover:bg-gray-400 cursor-pointer"
             >
               <i class="fa-solid fa-phone mr-[2px]"></i>Call
             </button>
@@ -388,8 +434,11 @@
             >
               <img class="w-[32px] h-[32px]" src="./assets/brac.png" alt="" />
             </div>
-            <button >
-              <i id="heart8" class="fa-regular fa-heart text-[24px] cursor-pointer"></i>
+            <button>
+              <i
+                id="heart8"
+                class="fa-regular fa-heart text-[24px] cursor-pointer"
+              ></i>
             </button>
           </div>
           <h1 class="text-[24px] font-bold mt-[16px]">Brac Helpline</h1>
@@ -401,13 +450,15 @@
             NGO
           </button>
           <div class="flex justify-between items-center mt-[24px]">
-            <div data-copy-text='16445'
-              class="copy-btn text-center bg-white border border-[#D4D6D5] rounded-lg py-[11px] px-[62px] hover:text-white cursor-pointer hover:bg-black"
+            <div
+              data-copy-text="16445"
+              class="copy-btn text-center max-sm:px-[30px]  bg-white border border-[#D4D6D5] rounded-lg py-[11px] px-[62px] hover:text-white cursor-pointer hover:bg-black"
             >
-              <p><i class="fa-regular fa-copy"></i> Copy</p>
+              <p class="max-sm:text-[11px]"><i class="fa-regular fa-copy"></i> Copy</p>
             </div>
-            <button id="call-btn8"
-              class="py-[11px] px-[62px] bg-[#00A63E] rounded-[8px] text-white hover:bg-gray-400 cursor-pointer"
+            <button
+              id="call-btn8"
+              class="py-[11px] max-sm:text-[11px] px-[62px] max-sm:px-[30px] max-sm:ml-[10px] bg-[#00A63E] rounded-[8px] text-white hover:bg-gray-400 cursor-pointer"
             >
               <i class="fa-solid fa-phone mr-[2px]"></i>Call
             </button>
@@ -426,8 +477,11 @@
                 alt=""
               />
             </div>
-            <button >
-              <i id="heart9" class="fa-regular fa-heart text-[24px] cursor-pointer"></i>
+            <button>
+              <i
+                id="heart9"
+                class="fa-regular fa-heart text-[24px] cursor-pointer"
+              ></i>
             </button>
           </div>
           <h1 class="text-[24px] font-bold mt-[16px]">
@@ -443,19 +497,50 @@
             Travel
           </button>
           <div class="flex justify-between items-center mt-[24px]">
-            <div data-copy-text='163'
-              class="copy-btn text-center bg-white border border-[#D4D6D5] rounded-lg py-[11px] px-[62px] hover:text-white cursor-pointer hover:bg-black"
+            <div
+              data-copy-text="163"
+              class="copy-btn text-center max-sm:px-[30px]  bg-white border border-[#D4D6D5] rounded-lg py-[11px] px-[62px] hover:text-white cursor-pointer hover:bg-black"
             >
-              <p><i class="fa-regular fa-copy"></i> Copy</p>
+              <p class="max-sm:text-[11px]"><i class="fa-regular fa-copy"></i> Copy</p>
             </div>
-            <button id="call-btn9"
-              class="py-[11px] px-[62px] bg-[#00A63E] rounded-[8px] text-white hover:bg-gray-400 cursor-pointer"
+            <button
+              id="call-btn9"
+              class="py-[11px] max-sm:text-[11px] px-[62px] max-sm:px-[30px] max-sm:ml-[10px] bg-[#00A63E] rounded-[8px] text-white hover:bg-gray-400 cursor-pointer"
             >
               <i class="fa-solid fa-phone mr-[2px]"></i>Call
             </button>
           </div>
         </div>
-        
+
+        <div
+          class="bg-white hidden max-sm:block p-[24px] rounded-[12px] row-span-3 shadow-md max-sm:pr-[20px]"
+        >
+          <div class="flex items-center justify-between ">
+            <div class="flex gap-[8px] items-center">
+              <i class="fa-solid fa-clock"></i>
+              <h1 class="text-[20px] font-medium">Call History</h1>
+            </div>
+            <button
+              id="clear-btn1"
+              class="text-white bg-[#00A63E] max-sm:text-[13px] px-[30px] py-[14px] rounded-[50px] cursor-pointer hover:bg-gray-400"
+            >
+              Clear
+            </button>
+          </div>
+          <div id="callHistory-parent1">
+            <!-- <div 
+          class="bg-zinc-50 rounded-lg mt-[8px] mb-[8px] flex items-center justify-between p-[16px]"
+        >
+          <div>
+            <h1 class="inter-font text-[18px] font-semibold">
+              Fire Service Number
+            </h1>
+            <p class="hind-madurai-font font-normal text-[18px]">999</p>
+          </div>
+          <h1 class="hind-madurai-font text-[18px] font-normal">11:36:58 AM</h1>
+        </div> -->
+          </div>
+        </div>
       </div>
       <!-- <div class="bg-white p-[24px] rounded-[12px] ml-[5px] ">
         <div class="flex items-center justify-between">
