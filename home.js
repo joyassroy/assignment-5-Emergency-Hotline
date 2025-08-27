@@ -36,8 +36,9 @@ document.getElementById("call-btn1").addEventListener("click", function () {
           <h1 class="hind-madurai-font text-[18px] font-normal">${data.date}</h1>
         </div>
         `;
+        const div1=div.cloneNode(true);
     callHistoryContainer.appendChild(div);
-    callHistoryContainer1.appendChild(div);
+    callHistoryContainer1.appendChild(div1);
   
 });
 
@@ -75,8 +76,9 @@ document.getElementById("call-btn2").addEventListener("click", function () {
           <h1 class="hind-madurai-font text-[18px] font-normal">${data.date}</h1>
         </div>
         `;
+        const div1=div.cloneNode(true);
     callHistoryContainer.appendChild(div);
-    callHistoryContainer1.appendChild(div);
+    callHistoryContainer1.appendChild(div1);
 });
 document.getElementById("call-btn3").addEventListener("click", function () {
   const point = document.getElementById("point-show").innerText;
@@ -112,8 +114,9 @@ document.getElementById("call-btn3").addEventListener("click", function () {
           <h1 class="hind-madurai-font text-[18px] font-normal">${data.date}</h1>
         </div>
         `;
+        const div1=div.cloneNode(true);
     callHistoryContainer.appendChild(div);
-    callHistoryContainer1.appendChild(div);
+    callHistoryContainer1.appendChild(div1);
 });
 document.getElementById("call-btn4").addEventListener("click", function () {
   const point = document.getElementById("point-show").innerText;
@@ -150,8 +153,9 @@ document.getElementById("call-btn4").addEventListener("click", function () {
           <h1 class="hind-madurai-font text-[18px] font-normal">${data.date}</h1>
         </div>
         `;
+        const div1=div.cloneNode(true);
     callHistoryContainer.appendChild(div);
-    callHistoryContainer1.appendChild(div);
+    callHistoryContainer1.appendChild(div1);
 });
 document.getElementById("call-btn5").addEventListener("click", function () {
   const point = document.getElementById("point-show").innerText;
@@ -187,8 +191,9 @@ document.getElementById("call-btn5").addEventListener("click", function () {
           <h1 class="hind-madurai-font text-[18px] font-normal">${data.date}</h1>
         </div>
         `;
+        const div1=div.cloneNode(true);
     callHistoryContainer.appendChild(div);
-    callHistoryContainer1.appendChild(div);
+    callHistoryContainer1.appendChild(div1);
 });
 document.getElementById("call-btn6").addEventListener("click", function () {
   const point = document.getElementById("point-show").innerText;
@@ -224,8 +229,9 @@ document.getElementById("call-btn6").addEventListener("click", function () {
           <h1 class="hind-madurai-font text-[18px] font-normal">${data.date}</h1>
         </div>
         `;
+        const div1=div.cloneNode(true);
     callHistoryContainer.appendChild(div);
-    callHistoryContainer1.appendChild(div);
+    callHistoryContainer1.appendChild(div1);
 });
 document.getElementById("call-btn7").addEventListener("click", function () {
   const point = document.getElementById("point-show").innerText;
@@ -261,8 +267,9 @@ document.getElementById("call-btn7").addEventListener("click", function () {
           <h1 class="hind-madurai-font text-[18px] font-normal">${data.date}</h1>
         </div>
         `;
+        const div1=div.cloneNode(true);
     callHistoryContainer.appendChild(div);
-    callHistoryContainer1.appendChild(div);
+    callHistoryContainer1.appendChild(div1);
 });
 document.getElementById("call-btn8").addEventListener("click", function () {
   const point = document.getElementById("point-show").innerText;
@@ -298,8 +305,9 @@ document.getElementById("call-btn8").addEventListener("click", function () {
           <h1 class="hind-madurai-font text-[18px] font-normal">${data.date}</h1>
         </div>
         `;
+        const div1=div.cloneNode(true);
     callHistoryContainer.appendChild(div);
-    callHistoryContainer1.appendChild(div);
+    callHistoryContainer1.appendChild(div1);
 });
 document.getElementById("call-btn9").addEventListener("click", function () {
   const point = document.getElementById("point-show").innerText;
@@ -335,8 +343,9 @@ document.getElementById("call-btn9").addEventListener("click", function () {
           <h1 class="hind-madurai-font text-[18px] font-normal">${data.date}</h1>
         </div>
         `;
+        const div1=div.cloneNode(true);
     callHistoryContainer.appendChild(div);
-    callHistoryContainer1.appendChild(div);
+    callHistoryContainer1.appendChild(div1);
 });
 
 // for heart click
