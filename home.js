@@ -386,3 +386,12 @@ document.getElementById("heart9").addEventListener("click", function () {
 
   document.getElementById("heart-show").innerText = number;
 });
+
+
+// for clear button
+
+document.getElementById('clear-btn').addEventListener('click',function () {
+    document.getElementById('callHistory-parent').innerText=' ';
+});
+
+
