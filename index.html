@@ -74,9 +74,9 @@
       </p>
     </section>
     <section
-      class="bg-[#F5FFF6] pl-[58px] pr-[62px] pb-[86px] pt-[48px] mr-[30px] flex items-start justify-between"
+      class="bg-[#F5FFF6] pl-[58px] pr-[62px] pb-[86px] pt-[48px]  flex items-center justify-center"
     >
-      <div class="grid grid-cols-3 gap-[30px]">
+      <div class="grid grid-cols-4 gap-[20px]">
         <div
           class="bg-white rounded-[12px] p-[32px] shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]"
         >
@@ -193,6 +193,32 @@
             </button>
           </div>
         </div>
+        <div class="bg-white w-[400px] p-[24px] rounded-[12px] ml-[50px]  row-span-3 shadow-md">
+        <div class="flex  items-center justify-between">
+          <div class="flex gap-[8px] items-center">
+            <i class="fa-solid fa-clock"></i>
+            <h1 class="text-[20px] font-medium mr-[102px]">Call History</h1>
+          </div>
+          <button id="clear-btn"
+            class="text-white bg-[#00A63E] px-[36px] py-[14px] rounded-[50px] cursor-pointer hover:bg-gray-400"
+          >
+            Clear
+          </button>
+        </div>
+        <div id="callHistory-parent">
+        <!-- <div 
+          class="bg-zinc-50 rounded-lg mt-[8px] mb-[8px] flex items-center justify-between p-[16px]"
+        >
+          <div>
+            <h1 class="inter-font text-[18px] font-semibold">
+              Fire Service Number
+            </h1>
+            <p class="hind-madurai-font font-normal text-[18px]">999</p>
+          </div>
+          <h1 class="hind-madurai-font text-[18px] font-normal">11:36:58 AM</h1>
+        </div> -->
+        </div>
+      </div>
         <div
           class="bg-white rounded-[12px] p-[32px] shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]"
         >
@@ -429,8 +455,9 @@
             </button>
           </div>
         </div>
+        
       </div>
-      <div class="bg-white p-[24px] rounded-[12px] ml-[5px] ">
+      <!-- <div class="bg-white p-[24px] rounded-[12px] ml-[5px] ">
         <div class="flex items-center justify-between">
           <div class="flex gap-[8px] items-center">
             <i class="fa-solid fa-clock"></i>
@@ -443,7 +470,7 @@
           </button>
         </div>
         <div id="callHistory-parent">
-        <!-- <div 
+         <div 
           class="bg-zinc-50 rounded-lg mt-[8px] mb-[8px] flex items-center justify-between p-[16px]"
         >
           <div>
@@ -453,9 +480,9 @@
             <p class="hind-madurai-font font-normal text-[18px]">999</p>
           </div>
           <h1 class="hind-madurai-font text-[18px] font-normal">11:36:58 AM</h1>
-        </div> -->
+        </div> 
         </div>
-      </div>
+      </div> -->
     </section>
     <script src="./home.js"></script>
   </body>

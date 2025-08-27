@@ -32,7 +32,7 @@ document.getElementById("call-btn1").addEventListener("click", function () {
             </h1>
             <p class="hind-madurai-font font-normal text-[18px]">${data.number}</p>
           </div>
-          <h1 class="hind-madurai-font text-[18px] font-normal">${data.date} AM</h1>
+          <h1 class="hind-madurai-font text-[18px] font-normal">${data.date}</h1>
         </div>
         `;
     callHistoryContainer.appendChild(div);
@@ -69,7 +69,7 @@ document.getElementById("call-btn2").addEventListener("click", function () {
             </h1>
             <p class="hind-madurai-font font-normal text-[18px]">${data.number}</p>
           </div>
-          <h1 class="hind-madurai-font text-[18px] font-normal">${data.date} AM</h1>
+          <h1 class="hind-madurai-font text-[18px] font-normal">${data.date}</h1>
         </div>
         `;
     callHistoryContainer.appendChild(div);
@@ -104,7 +104,7 @@ document.getElementById("call-btn3").addEventListener("click", function () {
             </h1>
             <p class="hind-madurai-font font-normal text-[18px]">${data.number}</p>
           </div>
-          <h1 class="hind-madurai-font text-[18px] font-normal">${data.date} AM</h1>
+          <h1 class="hind-madurai-font text-[18px] font-normal">${data.date} </h1>
         </div>
         `;
     callHistoryContainer.appendChild(div);
@@ -122,9 +122,9 @@ document.getElementById("call-btn4").addEventListener("click", function () {
   const data = {
     who: "Ambulance Number",
     date: new Date().toLocaleTimeString(),
-    number: 1994 - 999999,
+    number: "1994-999999",
   };
-  callHistory.push(data);
+  
   document.getElementById("point-show").innerText = finalPoint - 20;
 
   const callHistoryContainer = document.getElementById("callHistory-parent");
@@ -140,7 +140,7 @@ document.getElementById("call-btn4").addEventListener("click", function () {
             </h1>
             <p class="hind-madurai-font font-normal text-[18px]">${data.number}</p>
           </div>
-          <h1 class="hind-madurai-font text-[18px] font-normal">${data.date} AM</h1>
+          <h1 class="hind-madurai-font text-[18px] font-normal">${data.date} </h1>
         </div>
         `;
     callHistoryContainer.appendChild(div);
@@ -175,7 +175,7 @@ document.getElementById("call-btn5").addEventListener("click", function () {
             </h1>
             <p class="hind-madurai-font font-normal text-[18px]">${data.number}</p>
           </div>
-          <h1 class="hind-madurai-font text-[18px] font-normal">${data.date} AM</h1>
+          <h1 class="hind-madurai-font text-[18px] font-normal">${data.date} </h1>
         </div>
         `;
     callHistoryContainer.appendChild(div);
@@ -210,7 +210,7 @@ document.getElementById("call-btn6").addEventListener("click", function () {
             </h1>
             <p class="hind-madurai-font font-normal text-[18px]">${data.number}</p>
           </div>
-          <h1 class="hind-madurai-font text-[18px] font-normal">${data.date} AM</h1>
+          <h1 class="hind-madurai-font text-[18px] font-normal">${data.date}</h1>
         </div>
         `;
     callHistoryContainer.appendChild(div);
@@ -245,7 +245,7 @@ document.getElementById("call-btn7").addEventListener("click", function () {
             </h1>
             <p class="hind-madurai-font font-normal text-[18px]">${data.number}</p>
           </div>
-          <h1 class="hind-madurai-font text-[18px] font-normal">${data.date} AM</h1>
+          <h1 class="hind-madurai-font text-[18px] font-normal">${data.date} </h1>
         </div>
         `;
     callHistoryContainer.appendChild(div);
@@ -280,7 +280,7 @@ document.getElementById("call-btn8").addEventListener("click", function () {
             </h1>
             <p class="hind-madurai-font font-normal text-[18px]">${data.number}</p>
           </div>
-          <h1 class="hind-madurai-font text-[18px] font-normal">${data.date} AM</h1>
+          <h1 class="hind-madurai-font text-[18px] font-normal">${data.date} </h1>
         </div>
         `;
     callHistoryContainer.appendChild(div);
@@ -315,7 +315,7 @@ document.getElementById("call-btn9").addEventListener("click", function () {
             </h1>
             <p class="hind-madurai-font font-normal text-[18px]">${data.number}</p>
           </div>
-          <h1 class="hind-madurai-font text-[18px] font-normal">${data.date} AM</h1>
+          <h1 class="hind-madurai-font text-[18px] font-normal">${data.date} </h1>
         </div>
         `;
     callHistoryContainer.appendChild(div);
