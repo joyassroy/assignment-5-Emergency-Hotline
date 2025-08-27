@@ -388,10 +388,22 @@ document.getElementById("heart9").addEventListener("click", function () {
 });
 
 
-// for clear button
+// For clear button
 
 document.getElementById('clear-btn').addEventListener('click',function () {
     document.getElementById('callHistory-parent').innerText=' ';
 });
 
+// For Copy Button
+
+document.querySelectorAll('.copy-btn').forEach(button =>{
+    button.addEventListener('click',(event)=>{
+        const clickedBtn=event.currentTarget;
+        const textToCopy=clickedBtn.dataset.copyText;
+        alert('Number Copied: '+textToCopy);
+        navigator.clipboard.writeText(textToCopy);
+        const nmb= document.getElementById('copy-show').innerText;
+        document.getElementById('copy-show').innerText=parseInt(nmb)+1;
+    });
+});
 
