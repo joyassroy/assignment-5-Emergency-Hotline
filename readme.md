@@ -6,8 +6,8 @@ A web-based directory application built to provide quick and easy access to esse
 
 ## 🚀 Live Demo
 
-[Click here to view the Live Demo](#)
-*(Replace `#` with your actual live link)*
+[Click here to view the Live Demo](https://joyassroy.github.io/assignment-5-Emergency-Hotline/)
+
 
 ## ✨ Key Features
 
@@ -33,4 +33,4 @@ emergency-service-directory/
 ├── script.js       # Logic for Call History, Copy, and Counters
 └── assets/         # Images and Icons
 
-Live Link: https://joyassroy.github.io/assignment-5-Emergency-Hotline/
+
