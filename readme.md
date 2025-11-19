@@ -1,21 +1,36 @@
-1. What is the difference between **getElementById, getElementsByClassName, and querySelector / querySelectorAll**?
+# 🇧🇩 Emergency Service Directory
 
-   Ans: getElementById selects one element by its unique ID. getElementsByClassName selects a live collection of all elements that have a class name. querySelector selects the first element that matches a specific CSS selector. querySelectorAll selects a static list of all elements that match a specific CSS selector.
+### Government Emergency Services at Your Fingertip
 
-2. How do you **create and insert a new element into the DOM**?
+A web-based directory application built to provide quick and easy access to essential emergency contacts in Bangladesh. This project helps users find, copy, and dial critical numbers like **999** (National Emergency), **109** (Women & Child Helpline), and more.
 
-   Ans: I create a element via using .createElement() function and insert it using .appendChild() .
+## 🚀 Live Demo
 
-3. What is **Event Bubbling** and how does it work?
+[Click here to view the Live Demo](#)
+*(Replace `#` with your actual live link)*
 
-   Ans: Event bubbling is the process where an event fired on a nested element spreads up to its parent elements.
+## ✨ Key Features
 
-4. What is **Event Delegation** in JavaScript? Why is it useful?
+* **🚑 Service Cards:** Clear display of emergency numbers with category tags (Health, Police, Fire, Govt).
+* **📞 Click-to-Call:** Integrates with the device's default dialer for immediate assistance.
+* **📋 Quick Copy:** One-click functionality to copy numbers to the clipboard.
+* **🕒 Call History:** A sidebar that dynamically logs user interactions and dial history.
+* **❤️ Favorites & Stats:** Track saved numbers and usage statistics (copies, favorites) in the top navigation bar.
+* **📱 Responsive Design:** Fully responsive layout built with Tailwind CSS, suitable for mobile and desktop views.
 
-   Ans: Attaching a single event listener to a parent element is known as event delegation, and it is a useful method. This listener controls the events of all its child elements. It uses event bubbling to capture events from the child elements. This method works well for improving performance and controlling events on dynamically introduced content.
+## 🛠️ Technologies Used
 
-5. What are the differences between the **preventDefault() and stopPropagation()** methods?
+* **HTML5** - Semantic structure.
+* **Tailwind CSS** - Utility-first CSS framework for styling and responsiveness.
+* **JavaScript (ES6)** - Logic for state management, event handling, and DOM manipulation.
 
-    Ans:The preventDefault() function stops the browser's default response to an event. For example, it could prevent a form from submitting or a link from functioning. In contrast, StopPropagation() stops the event bubbling process. In this way, the event is kept from rising.
+## 📂 Project Structure
+
+```text
+emergency-service-directory/
+├── index.html      # Main structure and layout
+├── style.css       # Custom styles (if any overlaying Tailwind)
+├── script.js       # Logic for Call History, Copy, and Counters
+└── assets/         # Images and Icons
 
 Live Link: https://joyassroy.github.io/assignment-5-Emergency-Hotline/
